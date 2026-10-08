@@ -1,0 +1,149 @@
+<!-- test --><!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alan Estrada — Engineering & Delivery Leader</title>
+<meta name="description" content="Alan Estrada — engineering and delivery leader for zero-to-one builds, architecture modernization, performance turnarounds and AI-native software delivery.">
+<meta property="og:title" content="Alan Estrada — Engineering & Delivery Leader">
+<meta property="og:description" content="Zero-to-one builds, modernization and AI-native delivery. Based in Mexico, working with teams anywhere.">
+<meta property="og:url" content="https://alanestrada.space">
+<meta name="theme-color" content="#0b0d12">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0d12'/%3E%3Ctext x='50%25' y='58%25' text-anchor='middle' font-family='Georgia,serif' font-size='30' fill='%23e8c37a'%3EAE%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0d12; --bg2:#12151c; --line:#232834; --text:#e9ecf2; --muted:#9aa3b2;
+    --accent:#e8c37a; --accent2:#7aa7e8;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#faf8f4; --bg2:#ffffff; --line:#e6e1d6; --text:#16181d; --muted:#5d6472; --accent:#a8741a; --accent2:#2f5fa8; }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:28px 0}
+  .mark{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:20px;text-decoration:none;letter-spacing:.5px}
+  .mark span{color:var(--accent)}
+  nav ul{display:flex;gap:28px;list-style:none;font-size:14px;color:var(--muted)}
+  nav a{text-decoration:none} nav a:hover{color:var(--text)}
+  .hero{padding:96px 0 88px;position:relative}
+  .hero::before{content:"";position:absolute;inset:-40px -20% auto auto;width:520px;height:520px;border-radius:50%;
+    background:radial-gradient(circle,color-mix(in srgb,var(--accent) 22%,transparent),transparent 65%);filter:blur(20px);z-index:-1}
+  .eyebrow{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:600}
+  h1{font-family:Fraunces,Georgia,serif;font-weight:400;font-size:clamp(40px,7vw,76px);line-height:1.05;margin:18px 0 24px;letter-spacing:-.02em}
+  h1 em{font-style:italic;color:var(--accent)}
+  .lede{font-size:clamp(17px,2.2vw,20px);color:var(--muted);max-width:640px}
+  .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:40px}
+  .btn{display:inline-block;padding:13px 22px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid var(--line);transition:.2s}
+  .btn.primary{background:var(--accent);color:#14110a;border-color:var(--accent)}
+  .btn:hover{transform:translateY(-1px)}
+  section{padding:72px 0;border-top:1px solid var(--line)}
+  h2{font-family:Fraunces,Georgia,serif;font-weight:400;font-size:clamp(28px,4vw,38px);letter-spacing:-.01em;margin-bottom:12px}
+  .sub{color:var(--muted);max-width:620px;margin-bottom:40px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+  .card{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:26px}
+  .card .n{font-family:Fraunces,serif;color:var(--accent);font-size:15px}
+  .card h3{font-size:18px;margin:10px 0 8px;font-weight:600}
+  .card p{color:var(--muted);font-size:15px}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px}
+  .stat b{display:block;font-family:Fraunces,serif;font-weight:400;font-size:44px;color:var(--text);line-height:1.1}
+  .stat span{color:var(--muted);font-size:14px}
+  .timeline{list-style:none;border-left:1px solid var(--line);margin-left:6px}
+  .timeline li{position:relative;padding:0 0 30px 28px}
+  .timeline li::before{content:"";position:absolute;left:-6px;top:8px;width:11px;height:11px;border-radius:50%;background:var(--accent)}
+  .timeline .when{font-size:13px;color:var(--muted);letter-spacing:.04em}
+  .timeline h3{font-size:17px;font-weight:600;margin:2px 0 4px}
+  .timeline p{color:var(--muted);font-size:15px;max-width:680px}
+  .tags{display:flex;flex-wrap:wrap;gap:10px}
+  .tag{border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:14px;color:var(--muted)}
+  .contact{text-align:center;padding:96px 0}
+  .contact h2{font-size:clamp(32px,5vw,52px)}
+  .contact .cta{justify-content:center}
+  footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  @media (max-width:640px){ nav ul{display:none} .hero{padding:56px 0 64px} section{padding:56px 0} .wrap{padding:0 16px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="mark" href="#">alan<span>.</span>estrada</a>
+    <ul>
+      <li><a href="#what">What I do</a></li>
+      <li><a href="#ai">AI-SDLC</a></li>
+      <li><a href="#path">Path</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <p class="eyebrow">Engineering &amp; Delivery Leader</p>
+    <h1>I turn ambitious ideas into <em>teams and software</em> that ship.</h1>
+    <p class="lede">Zero-to-one builds, architecture modernization and performance turnarounds across web and microservices — with AI woven into how software gets delivered, and people at the center of it.</p>
+    <div class="cta">
+      <a class="btn primary" href="#contact">Let's talk</a>
+      <a class="btn" href="#what">See what I do</a>
+    </div>
+  </header>
+
+  <section id="what">
+    <h2>What I do</h2>
+    <p class="sub">I lead the people, the plan and the platform — from the first architecture sketch to a team that delivers predictably.</p>
+    <div class="grid">
+      <div class="card"><div class="n">01</div><h3>Zero-to-one builds</h3><p>Stand up new products and the teams behind them: scope, architecture, hiring and the first releases.</p></div>
+      <div class="card"><div class="n">02</div><h3>Modernization</h3><p>Move legacy systems to modern stacks without stopping the business — React, NestJS, GraphQL/Hasura, PostgreSQL.</p></div>
+      <div class="card"><div class="n">03</div><h3>Performance turnarounds</h3><p>Diagnose struggling programs and get them back to healthy throughput, quality and morale.</p></div>
+      <div class="card"><div class="n">04</div><h3>Delivery leadership</h3><p>Lead leads: planning with executives, clear technical decisions and people-first culture at scale.</p></div>
+    </div>
+  </section>
+
+  <section id="ai">
+    <h2>AI-native delivery</h2>
+    <p class="sub">As an AI Ambassador, I've implemented the AI-SDLC at several global companies — embedding AI across product, engineering and QA, with governance as the strategic vision that steers the program.</p>
+    <div class="stats">
+      <div class="stat"><b>35+</b><span>people in my reporting line</span></div>
+      <div class="stat"><b>Global</b><span>enterprises across consumer, health and entertainment</span></div>
+      <div class="stat"><b>End-to-end</b><span>AI-SDLC across every discipline</span></div>
+    </div>
+  </section>
+
+  <section id="path">
+    <h2>Path</h2>
+    <p class="sub">Leadership roles at EPAM Systems, building and steering teams for Fortune-scale clients such as Johnson &amp; Johnson.</p>
+    <ul class="timeline">
+      <li><div class="when">2025 — now</div><h3>Engineering Team Lead · Johnson &amp; Johnson</h3><p>Leading team leads and senior engineers; owning technical decisions, productivity and planning with leadership while rolling out an AI-SDLC.</p></li>
+      <li><div class="when">2025</div><h3>Engineering Team Lead / acting EM · Fortune 100 technology client</h3><p>Led delivery and engineering management for a high-visibility, NDA-bound engagement.</p></li>
+      <li><div class="when">2024 — now</div><h3>Engineering Manager · ESG white-label ERP</h3><p>Built and run the engineering organization behind a sustainability ERP platform.</p></li>
+      <li><div class="when">2022 — now</div><h3>Resource Manager</h3><p>Grew a reporting line from 7 to 35+ people, focused on growth, careers and healthy teams.</p></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Toolbox</h2>
+    <p class="sub">The stack and practices I reach for.</p>
+    <div class="tags">
+      <span class="tag">React</span><span class="tag">NestJS</span><span class="tag">GraphQL</span><span class="tag">Hasura</span><span class="tag">PostgreSQL</span><span class="tag">Microservices</span><span class="tag">AI-SDLC</span><span class="tag">AI governance</span><span class="tag">GDPR-aware systems</span><span class="tag">Delivery management</span><span class="tag">Team building</span>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <p class="eyebrow">Based in Mexico · working with teams anywhere</p>
+    <h2>Have something ambitious to build?</h2>
+    <p class="sub" style="margin:12px auto 0">Engineering leadership, delivery turnarounds or bringing AI into your SDLC — let's talk.</p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:alan.estrada.mtz@icloud.com">Email me</a>
+    </div>
+  </section>
+
+  <footer>
+    <span>© <span id="y">2026</span> Alan Estrada</span>
+    <span>alanestrada.space</span>
+  </footer>
+</div>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
