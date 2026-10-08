@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/whatsapp-bot/api/:path*",
+      "destination": "https://origin.alanestrada.space/:path*"
+    }
+  ]
+}
